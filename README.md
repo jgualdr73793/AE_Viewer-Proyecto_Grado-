@@ -95,3 +95,30 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
 # 5. Instalar dependencias
 pip install -r "../Ruta_archivo_requerimientos.txt"
+## 💡 Recomendaciones de Hardware y Captura
+
+* **Captura Óptima:** Utilizar la aplicación **Iriun Webcam** con la cámara de un smartphone de alta resolución.
+* **Encuadre:** Mantener el objeto de interés estrictamente en el centro del encuadre para una correcta toma de muestras de color.
+* **Optimización:** Si el almacenamiento es un problema, reducir el número de fotografías. El reconocimiento será exitoso siempre que se cubran los diferentes ángulos de la geometría del objeto.
+
+---
+
+## 📚 Referencias y Créditos Académicos
+
+Este desarrollo se fundamenta tecnológica y teóricamente en las siguientes herramientas, marcos y fuentes bibliográficas:
+
+* **Ejército Nacional de Colombia:** Dirección de Ingenieros Militares. *Acciones preventivas contra artefactos explosivos*.
+* **AliceVision & Meshroom:** *Photogrammetric Computer Vision Framework* y software de fotogrametría.
+* **Blender Foundation:** Suite de creación 3D *open source*.
+* **TensorFlow:** Framework principal para Machine Learning.
+* **OpenCV:** Biblioteca de visión artificial en Python.
+* **DataScientest:** Teoría y arquitectura de modelos U-Net.
+* **IBM & Encord:** Marcos teóricos para la segmentación de imágenes y visión artificial.
+* **Pix4D:** Conceptos de fotogrametría aplicada.
+* **Dassault Systèmes:** Conceptualización de *Virtual Twin Experience*.
+* **Unity Technologies:** Guías de desarrollo para creación de interfaces de usuario (UI) en aplicaciones interactivas.
+* **Aprende Machine Learning:** Detección de objetos con Python y redes neuronales.
+
+---
+
+> ⚠️ **Nota de Confidencialidad y Seguridad Institucional:** Este repositorio contiene una versión pública y segura orientada exclusivamente a demostrar la arquitectura de software, el pipeline de Inteligencia Artificial y la integración en Unity. Por normativas de seguridad del Ejército Nacional de Colombia, en este repositorio **NO se incluye ningún tipo de información táctica sensible, fórmulas químicas, componentes de fabricación real, ni modelos 3D con especificaciones exactas** de uso privativo. Es un proyecto con fines estrictamente tecnológicos y de exhibición de portafolio.
