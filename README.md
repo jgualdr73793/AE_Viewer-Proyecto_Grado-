@@ -41,7 +41,8 @@ El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligenc
 * **🎯 Resultado:** Reconstrucciones con un error dimensional medio de apenas **0.89 mm**.
 
 <div align="center">
-  <img src="URL_FOTO_AQUI_Fotogrametria_Meshroom" alt="Fotogrametría Meshroom" width="70%">
+  <img src="https://github.com/user-attachments/assets/18d25940-be67-427c-828d-f8d3963adc48
+" alt="Fotogrametría Meshroom" width="70%">
   <p><em>Nube de puntos densa y reconstrucción inicial utilizando Meshroom.</em></p>
 </div>
 
@@ -50,7 +51,8 @@ El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligenc
 * **🎯 Resultado:** Reducción del **60% en el conteo de polígonos**, optimizando el modelo para móviles sin sacrificar detalles.
 
 <div align="center">
-  <img src="URL_FOTO_AQUI_Limpieza_de_poligonos" alt="Limpieza de Polígonos en Blender" width="70%">
+  <img src="https://github.com/user-attachments/assets/9fe46c68-f588-4a44-8b25-412adfd17d47
+" alt="Limpieza de Polígonos en Blender" width="70%">
   <p><em>Proceso de optimización de polígonos y limpieza de malla en Blender.</em></p>
 </div>
 
@@ -60,10 +62,12 @@ El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligenc
 * **🎯 Resultado:** La aplicación corre de manera estable a **58 FPS** en dispositivos Android.
 
 <div align="center">
-  <img src="URL_FOTO_AQUI_Compilacion_Unity" alt="Compilación en Unity" width="70%">
+  <img src="https://github.com/user-attachments/assets/bde5da05-fad5-4b1a-928e-f2ce4395485f
+" alt="Compilación en Unity" width="70%">
   <p><em>Interfaz y jerarquía de objetos configurados desde el editor de Unity.</em></p>
   <br>
-  <img src="URL_FOTO_AQUI_Panel_Descriptivo" alt="Panel Descriptivo App" width="70%">
+  <img src="(https://github.com/user-attachments/assets/cb82f4d6-2e47-4eb9-a9c2-8cf77f2a44a1
+ " alt="Panel Descriptivo App" width="70%">
   <p><em>Cuadro descriptivo interactivo para la visualización detallada de componentes.</em></p>
 </div>
 
