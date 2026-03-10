@@ -1,60 +1,89 @@
-# 🛡️ Virtual Twin for Military Training: AI & Photogrammetry Pipeline
+<div align="center">
 
-[cite_start]**Proyecto desarrollado para el Ejército Nacional de Colombia** [cite: 55, 87]
+# 🛡️ Virtual Twin for Military Training
+**AI & Photogrammetry Pipeline**
+
+*Proyecto desarrollado para el Ejército Nacional de Colombia*
 
 ![Aplicación Funcional](URL_FOTO_APP_FUNCIONAL_AQUI)
-[cite_start]*Vista de la aplicación móvil funcional en dispositivo Android con interfaz interactiva.* [cite: 148, 149, 150]
 
-## 📖 Descripción del Proyecto
-[cite_start]Este proyecto fue desarrollado como práctica profesional para crear un sistema tecnológico innovador orientado al entrenamiento en identificación de Artefactos Explosivos (AE) y Artefactos Explosivos Improvisados (AEI)[cite: 87]. 
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)]()
+[![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)]()
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)]()
+[![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)]()
 
-[cite_start]A través de la virtualización y la creación de un "Gemelo Virtual", esta aplicación móvil permite reducir los riesgos en el entrenamiento básico, optimiza los procesos de reconocimiento logístico y permite a los usuarios interactuar de forma segura con modelos 3D altamente precisos[cite: 88, 89, 90, 106].
+</div>
 
-## 🛠️ Tecnologías y Herramientas
-* [cite_start]**Inteligencia Artificial & Visión Computacional:** Python, TensorFlow, Keras, OpenCV, U-Net[cite: 92, 118, 119, 124, 128].
-* [cite_start]**Fotogrametría & Modelado 3D:** Meshroom (AliceVision), Blender[cite: 126, 127].
-* [cite_start]**Desarrollo de Software / App Móvil:** Unity 3D, C#, Android[cite: 98].
+---
+
+> **Resumen Ejecutivo:** Aplicación móvil interactiva para el entrenamiento táctico en identificación de Artefactos Explosivos (AE) y Artefactos Explosivos Improvisados (AEI). Mediante un pipeline que integra segmentación semántica (IA) y fotogrametría, el sistema permite reducir riesgos operativos y estandarizar los protocolos de reconocimiento mediante *Gemelos Virtuales* de alta fidelidad.
+
+---
 
 ## ⚙️ Arquitectura y Pipeline Técnico (End-to-End)
-El sistema fue construido mediante un pipeline de 4 fases que conecta IA con renderizado 3D en tiempo real:
+
+El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligencia Artificial con renderizado 3D en tiempo real:
 
 ### 1. Recolección de Datos y Segmentación (U-Net)
-* [cite_start]Se construyó un dataset de más de 500 imágenes tomadas en campo[cite: 115, 160].
-* [cite_start]Se entrenó un modelo de segmentación semántica basado en la arquitectura **U-Net** para crear máscaras binarias[cite: 92, 97].
-* [cite_start]**Resultado:** El modelo alcanzó una exactitud del **96.2%**, aislando eficientemente el artefacto de fondos complejos e irregulares[cite: 134].
+* Se construyó un dataset de **+500 imágenes** tomadas en campo.
+* Se entrenó un modelo de segmentación semántica basado en la arquitectura **U-Net** para crear máscaras binarias.
+* **🎯 Resultado:** Exactitud del **96.2%**, aislando eficientemente el artefacto de fondos complejos.
 
 ### 2. Reconstrucción 3D (Fotogrametría Computacional)
-* [cite_start]Utilizando las imágenes procesadas y pre-segmentadas, se utilizó **Meshroom** para generar nubes de puntos densas[cite: 136, 137].
-* [cite_start]Aprovechando la aceleración por hardware (CUDA), el sistema logró capturar detalles anatómicos críticos como mecanismos de activación y marcas de fabricación[cite: 137].
-* [cite_start]**Resultado:** Reconstrucciones con un error dimensional medio de apenas **0.89 mm**, superando la fidelidad de algunos escáneres cilíndricos tradicionales[cite: 137, 154].
+* Utilizando las imágenes pre-segmentadas, se usó **Meshroom** para generar nubes de puntos densas.
+* Se aprovechó la aceleración por hardware (**CUDA**) para capturar detalles anatómicos críticos.
+* **🎯 Resultado:** Reconstrucciones con un error dimensional medio de apenas **0.89 mm**.
 
-![Reconstrucción en Meshroom](URL_FOTO_MESHROOM_AQUI)
-[cite_start]*Nube de puntos densa y reconstrucción inicial del AEI utilizando Meshroom.* [cite: 138, 139]
+<div align="center">
+  <img src="URL_FOTO_MESHROOM_AQUI" alt="Reconstrucción Meshroom" width="70%">
+  <p><em>Nube de puntos densa y reconstrucción inicial utilizando Meshroom.</em></p>
+</div>
 
 ### 3. Optimización Topológica
-* [cite_start]Las mallas 3D crudas fueron importadas a **Blender** para un proceso exhaustivo de limpieza[cite: 115, 141].
-* [cite_start]**Resultado:** Reducción del **60% en el conteo de polígonos** (Retopology), optimizando el modelo para dispositivos móviles sin sacrificar detalles visuales[cite: 141, 161].
+* Las mallas 3D crudas fueron importadas a **Blender** para un proceso exhaustivo de limpieza (*Retopology*).
+* **🎯 Resultado:** Reducción del **60% en el conteo de polígonos**, optimizando el modelo para móviles sin sacrificar detalles.
 
-![Limpieza en Blender](URL_FOTO_BLENDER_AQUI)
-[cite_start]*Proceso de optimización de polígonos y limpieza de malla en Blender.* [cite: 142, 143]
+<div align="center">
+  <img src="URL_FOTO_BLENDER_AQUI" alt="Limpieza en Blender" width="70%">
+  <p><em>Proceso de optimización de polígonos y limpieza de malla en Blender.</em></p>
+</div>
 
 ### 4. Despliegue Interactivo (Unity)
-* [cite_start]Los modelos optimizados (`.fbx`) se integraron en el motor gráfico de **Unity**[cite: 115].
-* [cite_start]Se desarrollaron scripts en **C#** para controlar la interacción del usuario (rotación táctil, zoom, cuadros descriptivos, selección de objetos)[cite: 115].
-* [cite_start]**Resultado:** La aplicación móvil corre de manera estable a **58 FPS** en dispositivos Android de gama media/alta, garantizando una experiencia fluida[cite: 145, 148].
+* Los modelos optimizados (`.fbx`) se integraron en el motor gráfico de **Unity**.
+* Se desarrollaron scripts en **C#** para controlar la interacción táctil (rotación, zoom, selección).
+* **🎯 Resultado:** La aplicación corre de manera estable a **58 FPS** en dispositivos Android.
 
-![Modelos en Unity](URL_FOTO_UNITY_AQUI)
-[cite_start]*Interfaz, jerarquía de objetos y modelos 3D configurados desde el editor de Unity.* [cite: 145, 146]
+<div align="center">
+  <img src="URL_FOTO_UNITY_AQUI" alt="Modelos en Unity" width="70%">
+  <p><em>Interfaz y jerarquía de objetos configurados desde el editor de Unity.</em></p>
+</div>
 
-## 💻 Instalación y Configuración (Entorno Local)
+---
 
-### Prerrequisitos
-* **Python 3.8** instalado desde la página oficial.
-* **Git** y **Visual Studio Code** instalados.
+## 💻 Instalación y Configuración Local
 
-### Clonar el Repositorio
-Abre tu explorador de archivos, dirígete a la carpeta donde deseas guardar el proyecto, haz clic derecho y selecciona **Open Git Bash here**. Ejecuta:
+### 🛠️ Prerrequisitos
+* **Python 3.8** * **Git** y **Visual Studio Code** * *Opcional pero recomendado:* **CUDA 11.1.1** y **cuDNN 9.7.8** (Para aceleración GPU de NVIDIA).
 
-```bash
-git init
+### 🚀 Despliegue del Entorno (Windows)
+
+Abre una terminal (`Git Bash` o la integrada en `VS Code`) y ejecuta:
+
+```powershell
+# 1. Clonar el repositorio
 git clone <AQUÍ_EL_LINK_DE_TU_REPOSITORIO>
+
+# 2. Instalar herramienta de entornos virtuales
+pip install virtualenv
+
+# 3. Crear y aislar el entorno (Python 3.8)
+virtualenv -p python3.8 env
+cd env
+
+# 4. Dar permisos y activar (PowerShell)
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+./Scripts/activate
+
+# 5. Instalar dependencias
+pip install -r "../Ruta_archivo_requerimientos.txt"
