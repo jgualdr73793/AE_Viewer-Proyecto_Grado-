@@ -5,7 +5,7 @@
 
 *Proyecto desarrollado para el Ejército Nacional de Colombia*
 
-<img src="![Interfaz APP](https://github.com/user-attachments/assets/4b7eefae-47a6-4c3e-8192-96087975e564)" alt="Interfaz APP" width="70%">
+<img src="(![Interfaz APP]https://github.com/user-attachments/assets/4b7eefae-47a6-4c3e-8192-96087975e564)" alt="Interfaz APP" width="70%">
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)]()
