@@ -41,7 +41,7 @@ El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligenc
 * **🎯 Resultado:** Reconstrucciones con un error dimensional medio de apenas **0.89 mm**.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/18d25940-be67-427c-828d-f8d3963adc4" alt="Fotogrametría Meshroom" width="70%">
+  <img src="" alt="Fotogrametría Meshroom" width="70%">
   <p><em>Nube de puntos densa y reconstrucción inicial utilizando Meshroom.</em></p>
 </div>
 
@@ -50,8 +50,7 @@ El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligenc
 * **🎯 Resultado:** Reducción del **60% en el conteo de polígonos**, optimizando el modelo para móviles sin sacrificar detalles.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/cb58414a-8946-41c6-875d-53687591574a
-" alt="Limpieza de Polígonos en Blender" width="70%">
+  <img src="https://github.com/user-attachments/assets/cb58414a-8946-41c6-875d-53687591574a" alt="Limpieza de Polígonos en Blender" width="70%">
   <p><em>Proceso de optimización de polígonos y limpieza de malla en Blender.</em></p>
 </div>
 
