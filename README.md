@@ -63,7 +63,7 @@ El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligenc
   <img src="https://github.com/user-attachments/assets/bde5da05-fad5-4b1a-928e-f2ce4395485f" alt="Compilación en Unity" width="70%">
   <p><em>Interfaz y jerarquía de objetos configurados desde el editor de Unity.</em></p>
   <br>
-  <img src="(https://github.com/user-attachments/assets/cb82f4d6-2e47-4eb9-a9c2-8cf77f2a44a1" alt="Panel Descriptivo App" width="70%">
+  <img src="https://github.com/user-attachments/assets/cb82f4d6-2e47-4eb9-a9c2-8cf77f2a44a1" alt="Panel Descriptivo App" width="70%">
   <p><em>Cuadro descriptivo interactivo para la visualización detallada de componentes.</em></p>
 </div>
 
