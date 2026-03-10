@@ -95,6 +95,8 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
 # 5. Instalar dependencias
 pip install -r "../Ruta_archivo_requerimientos.txt"
+```
+
 ## 💡 Recomendaciones de Hardware y Captura
 
 * **Captura Óptima:** Utilizar la aplicación **Iriun Webcam** con la cámara de un smartphone de alta resolución.
