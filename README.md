@@ -5,7 +5,7 @@
 
 *Proyecto desarrollado para el Ejército Nacional de Colombia*
 
-![Aplicación Funcional](URL_FOTO_APP_FUNCIONAL_AQUI)
+<img src="URL_FOTO_AQUI_Interfaz_APP" alt="Interfaz APP" width="70%">
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)]()
@@ -30,13 +30,18 @@ El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligenc
 * Se entrenó un modelo de segmentación semántica basado en la arquitectura **U-Net** para crear máscaras binarias.
 * **🎯 Resultado:** Exactitud del **96.2%**, aislando eficientemente el artefacto de fondos complejos.
 
+<div align="center">
+  <img src="URL_FOTO_AQUI_Precision_Modelo_Reconocimiento" alt="Precisión Modelo U-Net" width="70%">
+  <p><em>Máscaras binarias generadas y superpuestas sobre los objetos de entrenamiento.</em></p>
+</div>
+
 ### 2. Reconstrucción 3D (Fotogrametría Computacional)
 * Utilizando las imágenes pre-segmentadas, se usó **Meshroom** para generar nubes de puntos densas.
 * Se aprovechó la aceleración por hardware (**CUDA**) para capturar detalles anatómicos críticos.
 * **🎯 Resultado:** Reconstrucciones con un error dimensional medio de apenas **0.89 mm**.
 
 <div align="center">
-  <img src="URL_FOTO_MESHROOM_AQUI" alt="Reconstrucción Meshroom" width="70%">
+  <img src="URL_FOTO_AQUI_Fotogrametria_Meshroom" alt="Fotogrametría Meshroom" width="70%">
   <p><em>Nube de puntos densa y reconstrucción inicial utilizando Meshroom.</em></p>
 </div>
 
@@ -45,7 +50,7 @@ El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligenc
 * **🎯 Resultado:** Reducción del **60% en el conteo de polígonos**, optimizando el modelo para móviles sin sacrificar detalles.
 
 <div align="center">
-  <img src="URL_FOTO_BLENDER_AQUI" alt="Limpieza en Blender" width="70%">
+  <img src="URL_FOTO_AQUI_Limpieza_de_poligonos" alt="Limpieza de Polígonos en Blender" width="70%">
   <p><em>Proceso de optimización de polígonos y limpieza de malla en Blender.</em></p>
 </div>
 
@@ -55,8 +60,11 @@ El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligenc
 * **🎯 Resultado:** La aplicación corre de manera estable a **58 FPS** en dispositivos Android.
 
 <div align="center">
-  <img src="URL_FOTO_UNITY_AQUI" alt="Modelos en Unity" width="70%">
+  <img src="URL_FOTO_AQUI_Compilacion_Unity" alt="Compilación en Unity" width="70%">
   <p><em>Interfaz y jerarquía de objetos configurados desde el editor de Unity.</em></p>
+  <br>
+  <img src="URL_FOTO_AQUI_Panel_Descriptivo" alt="Panel Descriptivo App" width="70%">
+  <p><em>Cuadro descriptivo interactivo para la visualización detallada de componentes.</em></p>
 </div>
 
 ---
@@ -72,7 +80,7 @@ Abre una terminal (`Git Bash` o la integrada en `VS Code`) y ejecuta:
 
 ```powershell
 # 1. Clonar el repositorio
-git clone <AQUÍ_EL_LINK_DE_TU_REPOSITORIO>
+git clone <https://github.com/jgualdr73793/AE_Viewer-Proyecto_Grado->
 
 # 2. Instalar herramienta de entornos virtuales
 pip install virtualenv
