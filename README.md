@@ -6,7 +6,9 @@
 *Proyecto desarrollado para el Ejército Nacional de Colombia*
 
 <img src="https://github.com/user-attachments/assets/4b7eefae-47a6-4c3e-8192-96087975e564" alt="Interfaz APP" width="70%">
-
+<div align="center">
+<img src="https://img0.zst.kindle-fire.com/kindle-fire/generated/8e73459c-6b3a-446a-9f5b-6a1e7d82531a/jb_linkedin_banner.png" alt="Imagen del Banner LinkedIn" width="100%">
+</div>
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)]()
 [![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)]()
