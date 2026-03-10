@@ -41,7 +41,8 @@ El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligenc
 * **🎯 Resultado:** Reconstrucciones con un error dimensional medio de apenas **0.89 mm**.
 
 <div align="center">
-  <img src="" alt="Fotogrametría Meshroom" width="70%">
+  <img src="https://github.com/user-attachments/assets/550d0326-7b2e-4946-8424-cf38561b898d"
+ alt="Fotogrametría Meshroom" width="70%">
   <p><em>Nube de puntos densa y reconstrucción inicial utilizando Meshroom.</em></p>
 </div>
 
