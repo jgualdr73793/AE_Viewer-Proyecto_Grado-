@@ -31,7 +31,7 @@ El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligenc
 * **🎯 Resultado:** Exactitud del **96.2%**, aislando eficientemente el artefacto de fondos complejos.
 
 <div align="center">
-  <img src="URL_FOTO_AQUI_Precision_Modelo_Reconocimiento" alt="Precisión Modelo U-Net" width="70%">
+  <img src="https://github.com/user-attachments/assets/3f5cad27-b3bc-47da-af92-7ab347437889 " alt="Precisión Modelo U-Net" width="70%">
   <p><em>Máscaras binarias generadas y superpuestas sobre los objetos de entrenamiento.</em></p>
 </div>
 
