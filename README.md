@@ -50,7 +50,7 @@ El sistema fue construido mediante un pipeline de 4 fases que conecta Inteligenc
 * **🎯 Resultado:** Reducción del **60% en el conteo de polígonos**, optimizando el modelo para móviles sin sacrificar detalles.
 
 <div align="center">
-  <img src="![Limpieza_de_poligonos](https://github.com/user-attachments/assets/cb58414a-8946-41c6-875d-53687591574a)
+  <img src="https://github.com/user-attachments/assets/cb58414a-8946-41c6-875d-53687591574a
 " alt="Limpieza de Polígonos en Blender" width="70%">
   <p><em>Proceso de optimización de polígonos y limpieza de malla en Blender.</em></p>
 </div>
